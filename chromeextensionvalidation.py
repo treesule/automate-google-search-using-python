@@ -2,7 +2,7 @@
 from apiclient.discovery import build
 import openpyxl
 
-api_key = "AIzaSyBWhHqrxPTTQbSPjEzLFBf_KucHegGLeqE"
+api_key = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
 res = []
 resource = build("customsearch", 'v1', developerKey=api_key).cse()
 path = "C:\\Users\\nballa\\Desktop\\python\\test\\googlesearch\\url.xlsx"
